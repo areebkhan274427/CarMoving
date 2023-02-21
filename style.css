@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.scenery {
+    position: relative;
+}
+.scenery img{
+  height: 750px;
+   width: 100%;
+
+   
+}
+
+
+.car img{
+    position: absolute;
+    top:450px;
+    height:180px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 1;
+
+}
+
+@keyframes move{
+
+    0%{
+        
+        top:450px;
+        left:0;
+    }
+    17%{
+        top:450px;
+        left:200px;
+    }
+    34%{
+        top:450px;
+        left:400px;
+    }
+    51%{
+        top:450px;
+        left:600px;
+    }
+    68%{
+        top:450px;
+        left:800px;
+    }
+    85%{
+        top:450px;
+        left:1000px;  
+    }
+    100%{
+        top:450px;
+        left:1200px; 
+    }
+
+}
+
+.tyre img{
+    position: absolute;
+    top:533px;
+    left: 31px;
+    height: 93px;
+    animation-name: tyre1;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes tyre1{
+
+    0%{
+        transform: rotate(0deg);
+        top:533px;
+        left:31px;
+    }
+    17%{
+        transform: rotate(200deg);
+        top:533px;
+        left: 231px;;
+    }
+    34%{
+        transform: rotate(400deg);
+        top:533px;
+        left: 431px;;
+    }
+    51%{
+        transform: rotate(600deg);
+        top:533px;
+        left:631px;
+    }
+    68%{
+        transform: rotate(800deg);
+        top:533px;
+        left:831px;
+    }
+    85%{
+        transform: rotate(1000deg);
+        top:533px;
+        left:1031px;  
+    }
+    100%{
+        transform: rotate(1200deg);
+        top:533px;
+        left:1231px; 
+    }
+
+}
+
+.tyre1 img{
+    position: absolute;
+    top:533px;
+    left: 295px;
+    height: 93px;
+    animation-name: tyre2;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes tyre2{
+
+    0%{
+        transform: rotate(0deg);
+        top:533px;
+        left:295px;
+    }
+    17%{
+        transform: rotate(200deg);
+        top:533px;
+        left: 495px;
+    }
+    34%{
+        transform: rotate(400deg);
+        top:533px;
+        left: 695px;
+    }
+    51%{
+        transform: rotate(600deg);
+        top:533px;
+        left: 895px;
+    }
+    68%{
+        transform: rotate(800deg);
+        top:533px;
+        left:1095px;
+    }
+    85%{
+        transform: rotate(1000deg);
+        top:533px;
+        left:1295px;  
+    }
+    100%{
+        transform: rotate(1200deg);
+        top:533px;
+        left: 1495px;
+    }
+
+}
+
+
+
+
+
+
